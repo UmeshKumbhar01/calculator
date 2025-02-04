@@ -34,7 +34,7 @@ def main():
         print("Invalid operator.")
         return
 
-    print("Result:", result)
+    print(f"Result of {num1} {op} {num2} is :", result)
 
 if __name__ == "__main__":
     main()
